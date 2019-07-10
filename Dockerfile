@@ -1,4 +1,4 @@
-FROM dkzhang007/grpc-golang
+FROM dkzhang007/grpc-golang:1.0
 
 RUN go get -u github.com/golang/protobuf/protoc-gen-go
 
