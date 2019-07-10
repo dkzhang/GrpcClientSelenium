@@ -1,6 +1,6 @@
 FROM dkzhang007/my-grpc-golang:my1.0
 
-#RUN go get github.com/golang/protobuf/protoc-gen-go
+RUN go get github.com/golang/protobuf/protoc-gen-go
 
 WORKDIR /go/src/GrpcClientSelenium
 
